@@ -155,6 +155,10 @@ public class RobotContainer
 
   }
 
+  public void resetPose() {
+    drivebase.resetOdometry(Pose2d.kZero);
+  }
+
   /**
    * Use this to pass the autonomous command to the main {@link Robot} class.
    *
